@@ -1,0 +1,59 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "No. 1 News Web Solution on CodeCanyon: Stay Informed and Engaged!",
+    "home_page_url": "https://newstailwind.vercel.app",
+    "feed_url": "https://newstailwind.vercel.app/rssfeed.json",
+    "description": "Discover the top news web solution on Codeacnyon! Get the latest and most relevant news with our user-friendly and efficient platform. Stay informed with ease",
+    "items": [
+        {
+            "url": "https://newstailwind.vercel.app/get_rss_feed_by_id/28",
+            "title": "Health",
+            "date_modified": "2025-07-11T11:48:25.098Z"
+        },
+        {
+            "url": "https://newstailwind.vercel.app/get_rss_feed_by_id/27",
+            "title": "Religion",
+            "date_modified": "2025-07-11T11:48:25.098Z"
+        },
+        {
+            "url": "https://newstailwind.vercel.app/get_rss_feed_by_id/26",
+            "title": "Business",
+            "date_modified": "2025-07-11T11:48:25.098Z"
+        },
+        {
+            "url": "https://newstailwind.vercel.app/get_rss_feed_by_id/25",
+            "title": "Science",
+            "date_modified": "2025-07-11T11:48:25.098Z"
+        },
+        {
+            "url": "https://newstailwind.vercel.app/get_rss_feed_by_id/24",
+            "title": "Technology",
+            "date_modified": "2025-07-11T11:48:25.098Z"
+        },
+        {
+            "url": "https://newstailwind.vercel.app/get_rss_feed_by_id/23",
+            "title": "New feed for RSS",
+            "date_modified": "2025-07-11T11:48:25.098Z"
+        },
+        {
+            "url": "https://newstailwind.vercel.app/get_rss_feed_by_id/22",
+            "title": "adasdsda",
+            "date_modified": "2025-07-11T11:48:25.098Z"
+        },
+        {
+            "url": "https://newstailwind.vercel.app/get_rss_feed_by_id/21",
+            "title": "test customer rss feed",
+            "date_modified": "2025-07-11T11:48:25.098Z"
+        },
+        {
+            "url": "https://newstailwind.vercel.app/get_rss_feed_by_id/20",
+            "title": "12",
+            "date_modified": "2025-07-11T11:48:25.098Z"
+        },
+        {
+            "url": "https://newstailwind.vercel.app/get_rss_feed_by_id/19",
+            "title": "11",
+            "date_modified": "2025-07-11T11:48:25.098Z"
+        }
+    ]
+}

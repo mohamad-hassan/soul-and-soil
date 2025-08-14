@@ -1,0 +1,28 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^([^/]+)/breaking-news/([^/]+)$ [langCode]/breaking-news/[slug].html [L]
+    RewriteRule ^([^/]+)/categories-news/([^/]+)$ [langCode]/categories-news/[slug].html [L]
+    RewriteRule ^([^/]+)/tag/([^/]+)$ [langCode]/tag/[slug].html [L]
+    RewriteRule ^([^/]+)/news/([^/]+)$ [langCode]/news/[slug].html [L]
+    RewriteRule ^([^/]+)/video-news-view/([^/]+)$ [langCode]/video-news-view/[slug].html [L]
+    RewriteRule ^([^/]+)/view-all/([^/]+)$ [langCode]/view-all/[slug].html [L]
+    RewriteRule ^([^/]+)/all-breaking-news$ [langCode]/all-breaking-news.html [L]
+    RewriteRule ^([^/]+)/all-categories$ [langCode]/all-categories.html [L]
+    RewriteRule ^([^/]+)/bookmark$ [langCode]/bookmark.html [L]
+    RewriteRule ^([^/]+)/create-news$ [langCode]/create-news.html [L]
+    RewriteRule ^([^/]+)/edit-news$ [langCode]/edit-news.html [L]
+    RewriteRule ^([^/]+)/index$ [langCode]/index.html [L]
+    RewriteRule ^([^/]+)/live-news$ [langCode]/live-news.html [L]
+    RewriteRule ^([^/]+)/loading$ [langCode]/loading.html [L]
+    RewriteRule ^([^/]+)/manage-news$ [langCode]/manage-news.html [L]
+    RewriteRule ^([^/]+)/more-pages$ [langCode]/more-pages.html [L]
+    RewriteRule ^([^/]+)/news-notification$ [langCode]/news-notification.html [L]
+    RewriteRule ^([^/]+)/personal-notification$ [langCode]/personal-notification.html [L]
+    RewriteRule ^([^/]+)/profile-update$ [langCode]/profile-update.html [L]
+    RewriteRule ^([^/]+)/user-based-categories$ [langCode]/user-based-categories.html [L]
+    RewriteRule ^([^/]+)/rss$ [langCode]/rss.html [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ /404.html [L]
+</IfModule>
